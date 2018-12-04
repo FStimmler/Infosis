@@ -22,7 +22,7 @@ public class Fisica_main {
 
 
 
-		if(!(incog2.equals("xf")||incog1.equals("xf"))) {
+		if(!(incog2.equals("xi")||incog1.equals("xi"))) {
 			System.out.println("Posicion inicial: ");
 			xi = reader.nextInt();
 		}if(!(incog2.equals("xf")||incog1.equals("xf"))) {
