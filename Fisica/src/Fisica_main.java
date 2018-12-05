@@ -14,7 +14,7 @@ public class Fisica_main {
 			System.out.println("Cual?: ");
 			incog1 = reader.next();
 		}else {
-			System.out.println("Cuales?: ");
+			System.out.println("Cuales?:  ");
 			incog1 = reader.next();
 			System.out.println("y?: ");
 			incog2 = reader.next();
