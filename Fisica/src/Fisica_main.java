@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class Fisica_main {
-	static int xi=0,xf=0,vi=0,vf=0,a=0,t=0;
+	static int xi=0,xf=0,vi=0,vf=0,a=0,t=1;
 
 	public static void main (String[] args) {
 		@SuppressWarnings("resource")
 		Scanner reader = new Scanner(System.in);
 		String incog1="0";
 		String incog2="0";
-		System.out.println("Cuantas incognitas?: ");
+		System.out.println("Cuantas incognitas?:  ");
 		int c_incog = reader.nextInt();
 		if (c_incog==1) {
 			System.out.println("Cual?: ");
